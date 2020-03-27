@@ -48,7 +48,7 @@
                     </div>
                     <span class="error_message" id="new_pass_err">Invalid password</span>
                     <button class="password_button" type="button" onclick="password_change_request()">Change Password</button>
-                </div>
+                </form>
             </div>
         </div>
         <div class="content_container">
