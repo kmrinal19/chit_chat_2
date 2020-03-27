@@ -1,0 +1,180 @@
+.user_content{
+    grid-column-start: 2;
+    display: grid;
+    background-color: #f1f1f1;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 200px 1fr 100px;
+    padding: 50px 30px 30px 50px;
+}
+.user_head{
+    grid-column-start: span 2;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-auto-flow: column;
+    width: 100%;
+    height: 100%;
+    font-family: 'Merriweather', serif;
+}
+.dp_image_container{
+    font-family: 'Nunito Sans', sans-serif;
+    display: grid;
+    align-self: center;
+}
+.dp_image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid black;
+    justify-self: center;
+}
+.dp_form{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin-top: 5px;
+}
+.username_head{
+    justify-self: center;
+    align-self: center;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-size: 30px;
+}
+.upload_button{
+    border: none;
+    color: #fff;
+    background-color: #192231;
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.info_left{
+    margin-top: 20px;
+    grid-column-start: 1;
+    display: grid;
+    background-color: #c9d2d7;
+    justify-self: center;
+    align-self: center;
+    min-width: 85%;
+    height: 100%;
+    padding: 20px;
+    justify-items: center;
+    align-content: start;
+}
+.info_right{
+    margin-top: 30px;
+    grid-column-start: 2;
+    display: grid;
+    background-color: #c9d2d7;
+    justify-self: center;
+    align-self: center;
+    min-width: 85%;
+    height: 100%;
+    padding: 20px 40px;
+    justify-items: center;
+    align-content: start;
+}
+.info_input_container{
+    display: grid;
+    width: 90%;
+    grid-template-columns: 35% 65%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+}
+.info_input_label{
+    justify-self: end;
+    margin-right: 10px;
+}
+.info_input{
+    background-color: #fff;
+    width: 100%;
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+.birthday_container{
+    width: 100%;
+    padding-left: 10px;
+}
+.select_bday{
+    background-color: #fff;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.small_select{
+    width: 80px;
+}
+.btn_col_2{
+    grid-column-start: 2;
+    align-self: center;
+    margin-right: 35px;
+}
+.password_link{
+    margin-top: 10px;
+}
+.biolabel{
+    justify-self: start;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.bio_text{
+    resize: none;
+    width: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    padding: 7px;
+}
+.button_end{
+    justify-self: end;
+}
+.change_password_container{
+    display: grid;
+    width: 400px;
+    height: 400px;
+    background-color: #c9d2d7;
+    align-items: start;
+    justify-items: center;
+    padding: 20px;
+}
+.change_password_head{
+    display: grid;
+    grid-auto-flow: column;
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    grid-template-columns: 90%;
+    width: 100%;
+}
+.password_head{
+    justify-self: center;
+    text-align: center;
+
+}
+.password_close{
+    justify-self: end;
+    border: none;
+    color: red;
+    background-color: #f1f1f1;
+    padding: 7px;
+}
+.password{
+    display: grid;
+    width: 100%;
+}
+.password_input{
+    font-size: 16px !important;
+}
+.password_button{
+    border: none;
+    color: #fff;
+    background-color: #192231;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 20px;
+    justify-self: center;
+    align-self: end;
+}

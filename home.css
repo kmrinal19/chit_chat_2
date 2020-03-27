@@ -1,0 +1,203 @@
+.home_content{
+    grid-column-start: 2;
+    display: grid;
+    background-color: #f1f1f1;
+    grid-template-columns: 1fr 200px;
+    padding: 0;
+}
+.people_container{
+    grid-column-start:1 ;
+    display: grid;
+    justify-items: center;
+    margin: 0 60px;
+    padding: 40px;
+    width: 100%;
+    align-content: start;
+}
+.people_head{
+    font-family: 'Merriweather', serif;
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+.online_container{
+    grid-column-start:2 ;
+    display: grid;
+    padding: 30px 0 20px 0;
+    justify-items: center;
+    border-color: #919191;
+    border-left: 1px solid;
+    align-content: start;
+}
+.online_head{
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.info_wrapper{
+    width: 500px;
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 10px;
+    background-color: #c9d2d7;
+}
+.people_image_container{
+    display: grid;
+    grid-template-columns: 65px 1fr;
+    align-items: center;
+}
+.people_image{
+    border-radius: 50%;
+    border: 0.5px solid black;
+    height: 60px;
+    width: 60px;
+}
+.people_name{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.people_options{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+}
+.online_people{
+    width: 100%;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 85% 15%;
+    padding: 5px;
+}
+.online_image_container{
+    display: grid;
+    grid-template-columns: 35px 1fr;
+    align-items: center;
+}
+.online_people_image{
+    border-radius: 50%;
+    border: 0.5px solid black;
+    height: 30px;
+    width: 30px;
+}
+.online_people_name{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    margin-left: 5px;
+}
+.green_circle{
+    background-color: #5cb961;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    align-self: center;
+}
+.people_list{
+    width: 100%;
+    height: 100%;
+}
+.chat_container{
+    width: 500px;
+    height: 500px;
+    display: grid;
+    background-color: #c9d2d7;
+    grid-template-rows: 60px 440px;
+    justify-items: center;
+}
+.chat_head{
+    display: grid;
+    grid-template-columns: 90% 10%;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+}
+.chat_head_name{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px;
+    justify-self: center;
+}
+.chat_close{
+    color: red;
+    background-color: #fafafa;
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-style: none;
+    font-size: 18px;
+}
+.chat_wrapper{
+    margin: 5px 10px 10px 10px;
+    background-color: #f4f4f4;
+    width: 90%;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-rows: 80% 20%;
+}
+.chat{
+    padding: 7px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    overflow-y: auto;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    grid-auto-flow: row;
+    max-height: 100%;
+}
+.left_pic{
+    grid-column-start: 1;
+    align-self: start;
+    justify-self: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 0.5px solid black;
+}
+.left_chat{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    background-color: #ffffff;
+    align-self: start;
+    justify-self: start;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.right_chat{
+    grid-column-start: 4;
+    grid-column-end: 7;
+    background-color: #ffffff;
+    align-self: start;
+    justify-self: end;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.chat_input{
+    border-top: 1px solid black;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    display: grid;
+    width: 100%;
+    padding: 5px 10px;
+    grid-template-columns: 85% 15%;
+    align-content: start;
+    max-height: 100%;
+}
+.chat_text{
+    resize: none;
+    width: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    padding: 7px;
+}
+.send_button{
+    margin-left: 5px;
+    height: 30px;
+    align-self: center;
+    background-color: #5cb961;
+    color: #ffffff;
+    border: none;
+    border-style: none;
+    font-size: 16px;
+}
