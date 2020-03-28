@@ -15,12 +15,12 @@
         if($msg->num_rows>0){
             while($msg_a=$msg->fetch_assoc()){
                 if($msg_a['from_id']==$my_id){
-                    echo'<div class="right_chat">'.$msg_a['content'].'</div>';
+                    echo'<div class="right_chat">'.test_input($msg_a['content']).'</div>';
                     $_SESSION['last_chat']=$msg_a['chat_id'];
                 }
                 else{
                     echo'<img class="left_pic" src="images/'.$other_dp.'"/>
-                        <div class="left_chat">'.$msg_a['content'].'</div>';
+                        <div class="left_chat">'.test_input($msg_a['content']).'</div>';
                     $_SESSION['last_chat']=$msg_a['chat_id'];
                 }
             }
