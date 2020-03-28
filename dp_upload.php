@@ -2,7 +2,8 @@
     require_once("connection.php");
     session_start();
     $uid=$_SESSION['id'];
-    $targetDir = "images/";
+    $uname_1=$_SESSION['name'];
+    $targetDir = 'images/'.$uname_1.'_';
     $fileName = test_input(basename($_FILES["dp_file"]["name"]));
     $targetFilePath = $targetDir . $fileName;
     $fileType = pathinfo($targetFilePath,PATHINFO_EXTENSION);
